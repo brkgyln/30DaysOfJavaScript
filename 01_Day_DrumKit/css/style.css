@@ -1,0 +1,77 @@
+body,
+html {
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 10px;
+    border: .1rem solid black;
+    border-radius: .5rem;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 0 #da0463;
+}
+
+.keys {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .2s;
+    width: 10rem;
+    text-align: center;
+    color: #03D0FC;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem black;
+    cursor: pointer;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+    font-size: 1.2rem;
+    color: black;
+    padding: 3px;
+}
+
+.playing {
+    transform: scale(1.5);
+    border-color: orange;
+    background: aqua;
+    box-shadow: 0 0 10px #ff1100;
+}
+
+#basilantusbilgisi {
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    width: 10rem;
+    text-align: center;
+    color: #03D0FC;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20rem;
+}
