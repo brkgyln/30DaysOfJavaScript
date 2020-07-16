@@ -1,5 +1,20 @@
-drum Drum App
+# Day1- Drum Kit :drum: with Javascript
 
-Download
+# Learned 
 
-git clone https://github.com/brkgyln/30DaysOfJavaScript.git
+   - addEventListener can listen to a ton of events
+   -  For every key pressed, there’s a ton of information being passed to the function
+   -  Data attributes are a great way to add extra information
+   - Playing audio files is as simple as running .play()
+   - querySelector can be used to select a matched element
+   -classList returns a list of all classes which can be modified
+   
+# Preview
+<img
+src=“image/readme.png”
+raw=true
+alt=“Subject Pronouns”
+style=“margin-right: 10px;”
+/>
+
+<img src="./image/readme.png">
