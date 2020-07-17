@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rebeccapurple;
+}
+
+.box {
+    text-align: center;
+}
+
+.box :hover {
+    transform: rotate(0deg) scale(1.1) translateY(5px);
+    box-shadow: 0 0 15px #ffee10;
+    transition: .5s all ease;
+    z-index: 400;
+}
+
+.hours,
+.minutes,
+.seconds,
+.am-pm {
+    color: #e5f0f3;
+    font-size: 32px;
+    letter-spacing: 7px;
+    width: 4em;
+    height: 4em;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 3px 3px 9px #542682, -3px -3px 9px #8048b8;
+    text-shadow: 10 10 10px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.hours:hover,
+.minutes:hover,
+.seconds:hover,
+.am-pm:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+}
+
+#hours,
+#minutes,
+#seconds,
+#am-pm {
+    font-size: 5em;
+    color: white;
+    font-size: 32px;
+}
+
+.box>h1 {
+    font-size: 1.2em;
+    color: white;
+}
