@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/63c7c7c1-ad2b-48df-b524-108a6b8a9e72/deploy-status)](https://app.netlify.com/sites/brkgyln-day1-drumkit/deploys)
 # -Day1- Drum Kit :drum: with Javascript
 
 # -Learned 
