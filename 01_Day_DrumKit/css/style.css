@@ -4,7 +4,11 @@ html {
     background-size: cover;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     position: relative;
+=======
+    position:relative ;
+>>>>>>> 2d79d0dd263e63f49afce16e3fef1eb2a16c89cd
 }
 
 h1 {
