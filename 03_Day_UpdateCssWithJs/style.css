@@ -2,6 +2,7 @@
     --base: #f1879e;
     --spacing: 10px;
     --blur: 0px;
+    --bord-rad: 0px;
 }
 
 body {
@@ -39,6 +40,7 @@ body {
     padding: var(--spacing);
     background: var(--base);
     filter: blur(var(--blur));
+    border-radius: var(--bord-rad);
 }
 
 .highlight {
