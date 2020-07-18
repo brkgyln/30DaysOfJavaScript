@@ -1,0 +1,51 @@
+:root {
+    --base: #f1879e;
+    --spacing: 10px;
+    --blur: 0px;
+}
+
+body {
+    background-color: #d8d9dc;
+    font-family: sans-serif;
+    text-align: center;
+    background: #73C8A9;
+    color: #250202;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #c7f3bb, 0 0 30px #c7f3bb, 0 0 40px #c7f3bb, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    font-size: 23px;
+    font-weight: 700;
+    text-decoration: rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #373B44, #73C8A9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #373B44, #73C8A9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'helvetica neue', sans-serif;
+    text-align: center;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.highlight {
+    color: var(--base);
+}
+
+.controller {
+    padding: 10px;
+    margin: 10px;
+}

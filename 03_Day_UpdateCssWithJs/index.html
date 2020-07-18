@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <title>Update Css with Javascript</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h2>Update Css Variable With <span class="h1">Javascript</span></h2>
+    <div class="controller">
+        <label for="spacing">Spacing:</label>
+        <input type="range" name="spacing" min="0" max="200" value="10" data-sizing="px">
+
+        <label for="blur">Blur:</label>
+        <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+        <label for="base">Base Color</label>
+        <input type="color" name="base" value="#ffc650">
+    </div>
+
+    <img class="image" src="https://i.imgur.com/GN7CGes.jpg" width="600" height="400">
+
+    <script src="index.js"></script>
+</body>
+
+</html>
